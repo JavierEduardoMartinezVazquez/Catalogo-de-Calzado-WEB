@@ -13,7 +13,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:20vh;
     
 }
 
@@ -21,12 +21,12 @@ body{
     text-align: center;
     color: #fff;
     font-size: 50px;
+    z-index: 999;
 }
-
 
 .area{ 
     /*background: #f31d81;  */ 
-    background: -webkit-linear-gradient(to left, #bc3aaf, #c84ebc);  
+    background: -webkit-linear-gradient(to left, #ff1bac, #ff77f1);  
     width: 80%;
     height:100vh;/* 
     animation:slide 3s ease-in-out infinite alternate;
@@ -37,7 +37,7 @@ body{
 }
 .bg {
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #e495ff 50%, #ff499e 50%);
+    background-image: linear-gradient(-60deg, #ff0073 50%, #97004b 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -45,7 +45,7 @@ body{
     right:-50%;
     top:0;
     z-index:-1;
-  }
+}
 .bg2 {
     animation-direction:alternate-reverse;
     animation-duration:4s;

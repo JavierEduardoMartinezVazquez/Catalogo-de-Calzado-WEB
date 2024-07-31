@@ -204,11 +204,47 @@ body, ul, li, p, a, label, input, div {
   text-align: justify;
 }
 .redes{
-  max-width: 15%;
+  max-width: 18%;
   max-height: 100%;
   height: auto;
   width: auto;
 }
+.rainbow {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: auto;
+
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  font-size: 1.5em;
+
+  --border-size: 0.3rem;
+  border: var(--border-size) solid transparent;
+
+  /* Paint an image in the border */
+  border-image: conic-gradient(
+      from var(--angle),
+      #ffffff 0deg 90deg,
+      #ff4ded 90deg 180deg,
+      #ff1db8 180deg 270deg,
+      #ff40df 270deg 360deg
+    )
+    1 stretch;
+  background: rgb(255 255 255 / var(--opacity));
+}
+
+/** show a warning in browers that don't support it **/
+.warning {
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+
 
 @keyframes slideUp {
   to {
