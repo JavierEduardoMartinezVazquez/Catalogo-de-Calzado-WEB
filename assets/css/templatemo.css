@@ -56,6 +56,7 @@ body, ul, li, p, a, label, input, div {
 .text-rosa {color: #d23775 !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e7e7e7 !important;}
+.bg-blanco { background-color: #ffffff !important;}
 .bg-black { background-color: #1d242d !important;}
 .bg-success { background-color: #d23775 !important;}
 .btn-success {
@@ -199,6 +200,16 @@ body, ul, li, p, a, label, input, div {
   height: auto;
   width: auto;
 }
+.text-justify {
+  text-align: justify;
+}
+.redes{
+  max-width: 15%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
 @keyframes slideUp {
   to {
       bottom: 0; /* Termina en su posición natural */
